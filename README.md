@@ -18,7 +18,7 @@ Finalmente, se ha desplegado el servidor en la nube mediante Render, integrando 
 <img width="1530" height="690" alt="image" src="https://github.com/user-attachments/assets/cc056017-92a8-4a37-8733-def914c97150" />
 
 # Demo
-[![Demo](https://github.com/davidglezjaen/recado/blob/fcdbc60dddd000bb31037eff5322c8de808b8da4/Demo%20(compressed).mp4)
+<video src="path/to/Demo (compressed).mp4" width="320" height="240" controls></video>
 
 # Conclusiones
 Recado demuestra la viabilidad técnica y funcional de una aplicación de geo-mensajería con un enfoque centrado en la interacción local, útil tanto para usuarios individuales como para negocios y entidades públicas. 
