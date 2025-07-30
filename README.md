@@ -6,7 +6,7 @@ Proyecto de Fin de Grado <br/>
 El presente proyecto presenta Recado, una aplicación móvil de mensajería geolocalizada desarrollada sobre un sistema distribuido siguiendo un modelo cliente-servidor. Su objetivo principal es permitir el envío de mensajes a personas o entidades cercanas haciendo uso de tecnologías como GPS y mapas interactivos como OpenStreetMap. Además, la aplicación permite escribir mensajes sin destinatario, denominados recados, que permanecen anclados en una ubicación específica, accesibles para otros usuarios que se encuentren en las proximidades. Esta alternativa de comunicación permite una serie de interacciones que 
 enriquecen la aplicación. 
 # Pantalla principal
-<img width="1530" height="690" alt="image"  style="padding:20px; display:block;" src="https://github.com/user-attachments/assets/cc056017-92a8-4a37-8733-def914c97150" />
+<img width="1530" height="690" alt="image" src="https://github.com/user-attachments/assets/cc056017-92a8-4a37-8733-def914c97150" />
 # Tecnologías empleadas
 El desarrollo se ha realizado utilizando principalmente las siguientes tecnologías: 
 Android, Kotlin y Jetpack Compose para el cliente móvil, Flask-RESTful y Python para el servidor y MongoDB como base de datos NoSQL. 
