@@ -2,20 +2,22 @@
 UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA (UNED)<br/>
 ESCUELA TÉCNICA SUPERIOR DE INGENIERÍA INFORMÁTICA<br/>
 Proyecto de Fin de Grado <br/>
-# Introducción  
-Las aplicaciones de mensajería tienen una importancia considerable en nuestras comunicaciones diarias, esto es así porque nos permiten comunicarnos instantáneamente 
-sin importar distancias. Este Proyecto de Fin de Grado se centra en un conjunto de posibilidades que puede ofrecer el uso de una aplicación móvil de mensajería en pequeñas distancias, gracias al uso de la geolocalización. Principalmente permite:<br/>
-• Escribir y leer mensajes (Recados) sin destinatario específico, que permanecen asociados a una ubicación geográfica concreta. <br/>
-• Enviar mensajes a usuarios próximos. <br/>
-• Visualizar usuarios y mensajes en un mapa con información del entorno. <br/>
-• Uso extensivo del mapa como interfaz de usuario. <br/>
-Se trata de un sistema distribuido, es decir, los componentes localizados en computadores, conectados en red, comunican y coordinan sus acciones únicamente mediante el paso de mensajes. Además sigue el modelo cliente-servidor.
-# Cliente
-Se desarrolla en Android, utilizando el lenguaje Kotlin y la librería Jetpack Compose. Se usa este lenguaje pues es recomendado por Google desde 2019 para programar en Android. Se trata de un programa expresivo y conciso que reduce errores comunes y se integra fácilmente con aplicaciones existentes (escritas por ejemplo en Java). <br/>
-La ejecución del cliente se puede realizar cargando el código en el IDE de Android Studio y ejecutándolo en uno de los simuladores que ofrece (o, si se prefiere, en un dispositivo real). Alternativamente se puede instalar el archivo APK.
-# Servidor
-Se desarrolla en Python, uno de los lenguajes más usados en back end. La API usa FLASK RestFul, que es una extensión de Flask que añade soporte para construir APIs 
-REST de forma rápida. Además de MongoDB como base de datos NoSQL.<br/> 
-La ejecución del servidor (para desarrollo) se puede realizar cargando el código en el IDE de Microsoft Visual Studio Code y ejecutando el archivo main. 
+# Objetivo 
+El presente proyecto presenta Recado, una aplicación móvil de mensajería geolocalizada desarrollada sobre un sistema distribuido siguiendo un modelo cliente-servidor. Su objetivo principal es permitir el envío de mensajes a personas o entidades cercanas haciendo uso de tecnologías como GPS y mapas interactivos como OpenStreetMap. Además, la aplicación permite escribir mensajes sin destinatario, denominados recados, que permanecen anclados en una ubicación específica, accesibles para otros usuarios que se encuentren en las proximidades. Esta alternativa de comunicación permite una serie de interacciones que 
+enriquecen la aplicación. 
+# Pantalla principal
+<img width="1530" height="690" alt="image" src="https://github.com/user-attachments/assets/cc056017-92a8-4a37-8733-def914c97150" />
+# Tecnologías empleadas
+El desarrollo se ha realizado utilizando principalmente las siguientes tecnologías: 
+Android, Kotlin y Jetpack Compose para el cliente móvil, Flask-RESTful y Python para el servidor y MongoDB como base de datos NoSQL. 
+El cliente se comunica con el servidor mediante una API RESTful, empleando tokens JWT para su autenticación. 
+Se han realizado pruebas de la API con Postman y validaciones funcionales basadas en escenarios reales de uso, superando satisfactoriamente todos los casos definidos. 
+Finalmente, se ha desplegado el servidor en la nube mediante Render, integrando una base de datos de MongoDB Atlas.
+# Arquitectura
+<img width="1415" height="442" alt="image" src="https://github.com/user-attachments/assets/89071728-e01a-40f8-8e9b-eb1bdfd05b38" />
+# Conclusiones
+Recado demuestra la viabilidad técnica y funcional de una aplicación de geo-mensajería con un enfoque centrado en la interacción local, útil tanto para usuarios individuales como para negocios y entidades públicas. 
+# Palabras clave 
+Aplicación móvil, sistema distribuido, cliente, servidor, Android, Kotlin, Jetpack Compose, Python, Flask, API, REST, JWT, MongoDB, geo mensajería, geolocalización, OpenStreetMap, GPS.
 # Nota
-Para más información me remito a la Memoria del PFG, donde se detalla pormenorizadamente el proceso de instalación, tanto para desarrollo (debug) como para despliegue (deployment). 
+Para más información me remito a la Memoria del PFG, donde se detalla pormenorizadamente el proceso de instalación, tanto para desarrollo (debug) como para despliegue (deployment).
